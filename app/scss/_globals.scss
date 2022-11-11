@@ -22,7 +22,7 @@ a, a:visited, a:hover {
 }
 
 // Flexbox 
-.felx {
+.flex {
     display: flex;
 
     &-jc-sb {
@@ -52,13 +52,13 @@ button, .button {
 
 // Visibility
 .hide-for-mobile {
-    @include breakPoints-down(medium) {
+    @include breakpoint-down(medium) {
         display: none;
     }
 }
 
 .hide-for-desktop {
-    @include breakPoints-up(large){
+    @include breakpoint-up(large){
         display: none;
     }
 }

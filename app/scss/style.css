@@ -20,16 +20,16 @@ a, a:visited, a:hover {
   text-decoration: none;
 }
 
-.felx {
+.flex {
   display: flex;
 }
-.felx-jc-sb {
+.flex-jc-sb {
   justify-content: space-between;
 }
-.felx-jc-c {
+.flex-jc-c {
   justify-content: center;
 }
-.felx-ai-c {
+.flex-ai-c {
   align-items: center;
 }
 
